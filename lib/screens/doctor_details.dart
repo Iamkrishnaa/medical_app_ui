@@ -25,12 +25,13 @@ class _DoctorDetailsState extends State<DoctorDetails> {
         backgroundColor: kPrimaryPurple,
         child: const Icon(
           Icons.add,
-          size: 30,
+          size: 29,
         ),
       ),
       key: _scaffolfKey,
       backgroundColor: kPrimaryPurple,
       appBar: AppBar(
+        
         elevation: 0,
         backgroundColor: Colors.transparent,
         actions: [
